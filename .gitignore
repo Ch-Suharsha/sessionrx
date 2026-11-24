@@ -221,3 +221,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.env
+.env.*
+*.jsonl
+!tests/fixtures/**/*.jsonl
+.claude/
